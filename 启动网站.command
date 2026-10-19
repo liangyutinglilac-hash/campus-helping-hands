@@ -1,0 +1,4 @@
+#!/bin/zsh
+cd "$(dirname "$0")" || exit 1
+python3 server.py
+read "reply?按回车关闭窗口…"

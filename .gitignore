@@ -1,0 +1,15 @@
+# Private credentials and local data
+.admin-account.json
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+*.log

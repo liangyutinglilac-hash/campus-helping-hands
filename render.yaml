@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: campus-helping-hands
+    runtime: python
+    buildCommand: ""
+    startCommand: python3 server.py
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
